@@ -37,7 +37,6 @@ export interface IProductConfiguration {
 	date: string;
 	extensionsGallery: {
 		serviceUrl: string;
-		cacheUrl: string;
 		itemUrl: string;
 	};
 	extensionTips: { [id: string]: string; };
@@ -109,7 +108,7 @@ export const isTestingFromCli = cliArgs.extensionTestsPath && !cliArgs.debugBrkE
 
 export function log(...a: any[]): void {
 	if (cliArgs.verboseLogging) {
-		console.log.apply(null, a);
+		console.log.call(null, `(${new Date().toLocaleTimeString()})`, ...a);
 	}
 }
 
