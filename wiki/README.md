@@ -9,6 +9,21 @@ If you are looking for more information on using VS Code, please visit our [the 
 ## Table of contents
 
 - Contributing
-  - [Contributing to Code](contributing/how-to-contribute.md)
+  - [How to Contribute](contributing/how-to-contribute.md)
+  - [Submitting Bugs and Suggestions](contributing/submitting-bugs-and-suggestinos.md)
+  - [Code Organization](contributing/code-organization.md)
+  - [Coding Guidelines](contributing/coding-guidelines.md)
+  - [Contributor License Agreement](contributing/contributor-license-agreement.md)
+  - [Requested Extensions](contributing/requested-extensions.md)
 - Project Management
+  - [Roadmap](project-management/roadmap.md)
+  - [Iteration Plans](project-management/iteration-plans.md)
   - [Breaking Changes](project-management/breaking-changes.md)
+  - [Development Process](project-management/development-process.md)
+  - [Issue Tracking](project-management/issue-tracking.md)
+  - [Previous Releases](project-management/previous-releases.md)
+  - [Related Projects](project-management/related-projects.md)
+- [Documentation](https://code.visualstudio.com/docs)
+  - [Extensions](https://code.visualstudio.com/docs/extensions/overview)
+  - [API](https://code.visualstudio.com/docs/extensionAPI/overview)
+  - [Documetnation repository](https://github.com/microsoft/vscode-docs)
